@@ -22,5 +22,8 @@ module.exports = {
       loaders: ['react-hot', 'babel'],
       include: path.join(__dirname, 'src')
     }]
-  }
+  },
+    externals: {
+        'STORE': JSON.stringify(require('./store_directory.json'))
+    }
 };

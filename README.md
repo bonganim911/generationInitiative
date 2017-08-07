@@ -42,7 +42,7 @@ npm start
 open http://localhost:3000
 ```
 Read the intro and next steps on localhost:3000
-Edit `src/YourComponent.js`.  
+Edit `src/YourComponent.js`.
 Your changes will appear without reloading the browser like in [this video](http://vimeo.com/100010922).
 
 ### What do we look for?
